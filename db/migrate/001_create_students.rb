@@ -1,2 +1,4 @@
 class CreateStudents < ActiveRecord::Base 
-  create_
+  def change 
+    create_table do |t| 
+      
