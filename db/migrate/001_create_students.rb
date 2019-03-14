@@ -5,4 +5,5 @@ class CreateStudents < ActiveRecord::Base
       t.string :last_name 
     end 
   end 
+end 
       
